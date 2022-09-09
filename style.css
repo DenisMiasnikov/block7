@@ -562,118 +562,124 @@ a {
   top: 0;
   left: 0; }
 
-.modalFeedback {
+.popupHideFeedback_scroll {
   position: fixed;
   right: 0;
   height: 100%;
-  background-color: #FFFFFF;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  min-height: 362px;
-  width: 288px;
-  padding: 24px 16px;
-  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2); }
+  overflow-y: scroll; }
   @media (min-width: 544px) {
-    .modalFeedback {
-      min-height: 268px;
-      width: 376px;
-      padding: 40px 32px; } }
-  .modalFeedback .modalFeedback_burger {
-    margin: 0;
-    padding: 0;
-    border: none;
-    margin-bottom: 40px;
-    background: none;
-    height: 40px;
-    width: 40px;
-    background-image: url(./static/burger_1.svg); }
-    @media (min-width: 544px) {
-      .modalFeedback .modalFeedback_burger {
-        position: absolute;
-        top: 36px;
-        left: -73px; } }
-  .modalFeedback .modalFeedback_title {
-    margin: 0;
-    margin-bottom: 24px;
-    position: relative;
-    font-family: 'TTLakesBold';
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.6px;
-    color: #1B1C21; }
-  .modalFeedback .modalFeedback_form {
+    .popupHideFeedback_scroll {
+      width: 496px; } }
+  .popupHideFeedback_scroll .modalFeedback {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    background-color: #FFFFFF;
     display: flex;
-    flex-wrap: wrap;
-    height: 344px;
-    position: relative; }
-    .modalFeedback .modalFeedback_form .modalFeedback_form--field {
-      margin-bottom: 16px;
-      width: 270px;
-      height: 48px;
-      background: #FFFFFF;
-      border: 1px solid #EAEAEA;
-      border-radius: 8px;
-      font-family: 'TTLakesRegular';
-      font-size: 16px;
-      line-height: 24px;
-      color: #B5B6BC;
-      padding-left: 16px; }
-      @media (min-width: 544px) {
-        .modalFeedback .modalFeedback_form .modalFeedback_form--field {
-          width: 358px; } }
-    .modalFeedback .modalFeedback_form .modalFeedback_button {
-      align-self: flex-end;
-      position: absolute;
-      top: 427px;
-      left: 156px;
+    /*overflow-y: scroll;*/
+    flex-direction: column;
+    width: 288px;
+    padding: 24px 16px;
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2); }
+    @media (min-width: 544px) {
+      .popupHideFeedback_scroll .modalFeedback {
+        width: 376px;
+        padding: 40px 32px; } }
+    .popupHideFeedback_scroll .modalFeedback .modalFeedback_burger {
       margin: 0;
       padding: 0;
       border: none;
-      width: 136px;
-      height: 32px;
-      background: #FF3E79;
-      border-radius: 16px;
-      font-family: 'TTLakesMedium';
-      font-size: 12px;
-      line-height: 24px;
-      text-align: left;
-      padding-left: 20px;
-      letter-spacing: -0.15px;
-      text-transform: uppercase;
-      color: #FFFFFF; }
+      margin-bottom: 40px;
+      background: none;
+      height: 40px;
+      width: 40px;
+      background-image: url(./static/burger_1.svg); }
       @media (min-width: 544px) {
-        .modalFeedback .modalFeedback_form .modalFeedback_button {
-          top: 410px;
-          left: 240px; } }
-    .modalFeedback .modalFeedback_form .modalFeedback_form--field-message {
-      resize: none;
-      margin-bottom: 16px;
-      width: 270px;
-      height: 106px;
-      background: #FFFFFF;
-      border: 1px solid #EAEAEA;
-      border-radius: 8px;
+        .popupHideFeedback_scroll .modalFeedback .modalFeedback_burger {
+          position: absolute;
+          top: 35px;
+          left: -72px; } }
+    .popupHideFeedback_scroll .modalFeedback .modalFeedback_title {
+      margin: 0;
+      margin-bottom: 24px;
+      position: relative;
+      font-family: 'TTLakesBold';
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.6px;
+      color: #1B1C21; }
+    .popupHideFeedback_scroll .modalFeedback .modalFeedback_form {
+      display: flex;
+      flex-wrap: wrap;
+      height: 344px;
+      position: relative; }
+      .popupHideFeedback_scroll .modalFeedback .modalFeedback_form .modalFeedback_form--field {
+        margin-bottom: 16px;
+        width: 270px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 8px;
+        font-family: 'TTLakesRegular';
+        font-size: 16px;
+        line-height: 24px;
+        color: #B5B6BC;
+        padding-left: 16px; }
+        @media (min-width: 544px) {
+          .popupHideFeedback_scroll .modalFeedback .modalFeedback_form .modalFeedback_form--field {
+            width: 358px; } }
+      .popupHideFeedback_scroll .modalFeedback .modalFeedback_form .modalFeedback_button {
+        align-self: flex-end;
+        position: absolute;
+        top: 427px;
+        left: 156px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 136px;
+        height: 32px;
+        background: #FF3E79;
+        border-radius: 16px;
+        font-family: 'TTLakesMedium';
+        font-size: 12px;
+        line-height: 24px;
+        text-align: left;
+        padding-left: 20px;
+        letter-spacing: -0.15px;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+        @media (min-width: 544px) {
+          .popupHideFeedback_scroll .modalFeedback .modalFeedback_form .modalFeedback_button {
+            top: 410px;
+            left: 240px; } }
+      .popupHideFeedback_scroll .modalFeedback .modalFeedback_form .modalFeedback_form--field-message {
+        resize: none;
+        margin-bottom: 16px;
+        width: 270px;
+        height: 106px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 8px;
+        font-family: 'TTLakesRegular';
+        font-size: 16px;
+        line-height: 24px;
+        color: #B5B6BC;
+        padding-left: 16px;
+        padding-top: 12px; }
+        @media (min-width: 544px) {
+          .popupHideFeedback_scroll .modalFeedback .modalFeedback_form .modalFeedback_form--field-message {
+            width: 358px; } }
+    .popupHideFeedback_scroll .modalFeedback .modalFeedback_text {
+      margin: 0;
+      margin-bottom: 100px;
+      width: 288px;
       font-family: 'TTLakesRegular';
-      font-size: 16px;
-      line-height: 24px;
-      color: #B5B6BC;
-      padding-left: 16px;
-      padding-top: 12px; }
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82; }
       @media (min-width: 544px) {
-        .modalFeedback .modalFeedback_form .modalFeedback_form--field-message {
-          width: 358px; } }
-  .modalFeedback .modalFeedback_text {
-    margin: 0;
-    margin-bottom: 18px;
-    width: 288px;
-    font-family: 'TTLakesRegular';
-    font-size: 14px;
-    line-height: 16px;
-    color: #7E7E82; }
-    @media (min-width: 544px) {
-      .modalFeedback .modalFeedback_text {
-        width: 376px; } }
+        .popupHideFeedback_scroll .modalFeedback .modalFeedback_text {
+          width: 376px; } }
 
 .modalFeedback_title::before {
   content: " ";
