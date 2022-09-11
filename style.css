@@ -626,7 +626,7 @@ a {
     right: 0;
     height: 100%;
     background-color: #FFFFFF;
-    display: flex;
+    /*display: flex;*/
     /*overflow-y: scroll;*/
     flex-direction: column;
     width: 288px;
