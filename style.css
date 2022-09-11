@@ -228,7 +228,7 @@ a {
   margin: 0px auto; }
   @media (min-width: 1366px) {
     .main_container {
-      min-width: 1120px; } }
+      min-width: 1020px; } }
 
 .title {
   display: flex;
@@ -400,7 +400,7 @@ a {
       min-height: 322px; } }
   @media (min-width: 1120px) {
     .brands_body {
-      min-width: 1120px; } }
+      min-width: 1020px; } }
   .brands_body .title_main {
     justify-content: flex-start;
     display: flex;
@@ -572,6 +572,11 @@ a {
     @media (min-width: 1120px) {
       .button-more .button-more_show-more--show {
         margin-left: 32px; } }
+  .button-more .button-more_show-more--brands {
+    display: none; }
+    @media (min-width: 768px) {
+      .button-more .button-more_show-more--brands {
+        display: block; } }
   .button-more .button-more_show-less--show {
     margin-left: 24px;
     margin-bottom: 16px; }
@@ -788,7 +793,7 @@ a {
       height: 105px; } }
   @media (min-width: 1120px) {
     .footer {
-      min-width: 1120px;
+      min-width: 1020px;
       height: 85px; } }
   .footer .footer_menu {
     align-self: flex-start;
@@ -1029,7 +1034,7 @@ a {
   overflow: hidden; }
   @media (min-width: 1120px) {
     .prices_body {
-      min-width: 1120px; } }
+      min-width: 1020px; } }
   .prices_body .title_main {
     display: flex;
     flex-wrap: wrap;
@@ -1289,7 +1294,7 @@ a {
       min-height: 322px; } }
   @media (min-width: 1120px) {
     .repair_body {
-      min-width: 1120px; } }
+      min-width: 1020px; } }
   .repair_body .title_main {
     display: flex;
     flex-wrap: wrap;
@@ -1325,12 +1330,12 @@ a {
       padding: 0;
       margin-bottom: 0;
       flex-grow: 1;
-      max-height: 178px;
-      overflow: hidden; }
+      max-height: 178px; }
       @media (min-width: 768px) {
         .repair_body .repair .repair_list {
           flex-wrap: wrap;
-          margin-top: 24px; } }
+          margin-top: 24px;
+          overflow: hidden; } }
       .repair_body .repair .repair_list .repair_list-item {
         display: flex;
         flex-wrap: wrap;
@@ -1455,6 +1460,11 @@ a {
     @media (min-width: 1120px) {
       .button-more .button-more_show-more--show {
         margin-left: 32px; } }
+  .button-more .button-more_show-more--repair {
+    display: none; }
+    @media (min-width: 768px) {
+      .button-more .button-more_show-more--repair {
+        display: block; } }
   .button-more .button-more_show-less--show {
     margin-left: 24px;
     margin-bottom: 16px; }
