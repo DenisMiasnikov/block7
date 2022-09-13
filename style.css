@@ -1498,7 +1498,7 @@ a {
   max-width: 360px;
   background-color: white;
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
-  overflow-y: scroll; }
+  /*overflow-y: scroll;*/ }
   @media (min-width: 361px) {
     .sidenav {
       width: 320px; } }
