@@ -636,14 +636,14 @@ button {
   font-weight: 700;
   font-style: normal; }
 
-.section_prices {
+.section-prices {
   background-color: #F8F8F8;
   margin: 0;
   min-width: 320px;
   min-height: 234px;
   overflow: hidden; }
   @media (min-width: 1120px) {
-    .section_prices {
+    .section-prices {
       min-width: 1020px; } }
 
 .prices {
@@ -740,7 +740,7 @@ button {
             margin-top: 0px;
             margin-left: 0px; } }
 
-.prices_text {
+.section-prices_text {
   max-width: 288px;
   height: -moz-fit-content;
   height: fit-content;
@@ -751,17 +751,17 @@ button {
   letter-spacing: 0.2px;
   color: #1B1C21; }
   @media (min-width: 453px) {
-    .prices_text {
+    .section-prices_text {
       margin: 16px;
       max-width: 421px; } }
   @media (min-width: 768px) {
-    .prices_text {
+    .section-prices_text {
       margin-left: 24px; } }
   @media (min-width: 1120px) {
-    .prices_text {
+    .section-prices_text {
       margin-left: 32px; } }
 
-.prices_button-offer {
+.section-prices_button-offer {
   position: relative;
   padding: 0;
   margin-left: 16px;
@@ -776,7 +776,7 @@ button {
   margin-bottom: 40px;
   max-width: 192px;
   text-align: start; }
-  .prices_button-offer::after {
+  .section-prices_button-offer::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -790,14 +790,14 @@ button {
     border-bottom-right-radius: 1px;
     transform: rotate(45deg); }
     @media (min-width: 453px) {
-      .prices_button-offer::after {
+      .section-prices_button-offer::after {
         top: 9px;
         left: 297px; } }
   @media (min-width: 453px) {
-    .prices_button-offer {
+    .section-prices_button-offer {
       max-width: 292px; } }
   @media (min-width: 768px) {
-    .prices_button-offer {
+    .section-prices_button-offer {
       margin-left: 24px;
       margin-bottom: 47px;
       margin-bottom: 50px; } }
